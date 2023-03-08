@@ -10,7 +10,9 @@ Built a basic local server (with back-end: Python and Flask)
 # Dependencies:
 
 • Flask: https://pypi.org/project/Flask/
+
 • Static Folder items (listed below)
+
 • Templates Folder items (listed below)
 
 # Static Folder includes:
