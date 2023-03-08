@@ -3,5 +3,19 @@ Built a basic local server
 Practicing Backend: Python and Flask
 
 HTML web templates found here:
-https://html5up.net/
-https://themewagon.com/author/mashuptemplate/
+• https://html5up.net/
+• https://themewagon.com/author/mashuptemplate/
+
+Static Folder includes:
+• Favicon image
+• Javascript file
+• CSS file
+• Assets folder (containing images for webpage)
+
+Templates folder includes:
+• index.html and linkes to related web pages, including:
+  • about.html
+  • contact.html
+  • thankyou.html (thank you page after submitting contact form)
+  • works.html (dummy portfolio page)
+  • work.html (included links within works.html)
