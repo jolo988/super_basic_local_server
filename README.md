@@ -1,18 +1,19 @@
 # super_basic_local_server
 Built a basic local server (with back-end: Python and Flask)
 
-HTML web templates found here:
+# HTML web templates found here:
 
 • https://html5up.net/
 
 • https://themewagon.com/author/mashuptemplate/
 
-Dependencies:
-Flask: https://pypi.org/project/Flask/
-Static Folder items (listed below)
-Templates Folder items (listed below)
+# Dependencies:
 
-Static Folder includes:
+• Flask: https://pypi.org/project/Flask/
+• Static Folder items (listed below)
+• Templates Folder items (listed below)
+
+# Static Folder includes:
 
 • Favicon image
 
@@ -22,9 +23,9 @@ Static Folder includes:
 
 • Assets folder (containing images for webpage)
 
-Templates folder includes:
+# Templates folder includes:
 
-• index.html and linkes to related web pages, including:
+• index.html and links to related web pages, including:
 
   • about.html
 
