@@ -7,6 +7,11 @@ HTML web templates found here:
 
 • https://themewagon.com/author/mashuptemplate/
 
+Dependencies:
+Flask: https://pypi.org/project/Flask/
+Static Folder items (listed below)
+Templates Folder items (listed below)
+
 Static Folder includes:
 
 • Favicon image
