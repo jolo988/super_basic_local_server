@@ -1,6 +1,5 @@
 # super_basic_local_server
-Built a basic local server
-Practicing Backend: Python and Flask
+Built a basic local server (with back-end: Python and Flask)
 
 HTML web templates found here:
 
