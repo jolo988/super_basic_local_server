@@ -21,7 +21,7 @@ def write_to_file(data):
         file = database.write(f'\n{email}, {subject}, {message}')
 
 # 'a' append to database.txt
-
+#  store database.txt to csv file
 def write_to_csv(data):
     with open('database.csv', newline="", mode='a') as database2:
         email = data['email']
@@ -30,10 +30,8 @@ def write_to_csv(data):
         csv_writer = csv.writer(database2, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow([email,subject,message])
 
-# CSV = comma separated values
-# delimiter = will separate into columns
 
-# backend email form, send info to database.txt
+# backend contact/email form; send info to database.txt
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
     if request.method == 'POST':
@@ -45,6 +43,3 @@ def submit_form():
             return 'did not save to database'
     else:
         return 'Something went wrong, try again!'
-
-# POST = browser wants us to save info
-# GET = Browser wants us to get info
