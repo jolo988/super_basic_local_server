@@ -30,7 +30,6 @@ def write_to_csv(data):
         csv_writer = csv.writer(database2, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow([email,subject,message])
 
-
 # backend contact/email form; send info to database.txt
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
