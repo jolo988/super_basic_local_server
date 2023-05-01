@@ -42,3 +42,4 @@ def submit_form():
             return 'did not save to database'
     else:
         return 'Something went wrong, try again!'
+    
